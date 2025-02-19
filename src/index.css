@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0,0,0);
+  background: linear-gradient(236deg, rgba(0,0,0,1) 0%, rgba(78,86,124,1) 49%, rgba(86,36,171,1) 100%);
+}
+.main {
+  display: flex;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 97%);
+  width: 800px;
+  height: 500px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, black -6px -2px 16px 0px;
+  border-radius: 25px;
+  padding: 20px;
+  color: white;
+  gap:30px;
+}
+.coisa {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px; 
+}
+.image {
+  height: 450px;
+  width: 400px;
+  border-radius: 20px;
+}
+.botao1, .botao2 {
+  background-color:darkblue;
+  padding: 5px;
+  border-radius: 20px;
+  text-decoration: none;
+  color:white;
+}
